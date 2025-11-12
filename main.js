@@ -1,5 +1,5 @@
 // Generate a random color that is not too light
-function generateColors() {
+function generateColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
     for (let i = 0; i < 6; i++) {
@@ -9,7 +9,7 @@ function generateColors() {
 }
 
 function setBackgroundColor() {
-    const color = generateColors();
+    const color = generateColor();
     document.getElementById('background').style.backgroundColor = color;
 }
 
