@@ -8,7 +8,12 @@ const quotes = [
         "author": "John Lennon"
     },
     {
-        "quote": "Reading shows in your conversations. Your workouts show in your physique. Your discipline shows up in your confidence. Your focus shows up in your results.",
+        "quote": `
+        Reading shows in your conversations.
+        Your workouts show in your physique.
+        Your discipline shows up in your confidence.
+        Your focus shows up in your results.
+        `,
         "author": "Unknown"
     },
     {
