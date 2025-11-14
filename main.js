@@ -1,11 +1,9 @@
 // Generate a random color that is not too light
 function generateColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
+    const randomHue = Math.floor(Math.random() * 360);
+    const randomSaturation = Math.floor(Math.random() * 50) + 50; // 50% to 100%
+    const randomLightness = Math.floor(Math.random() * 30) + 30;
+    return `hsl(${randomHue}, ${randomSaturation}%, ${randomLightness}%)`;
 }
 
 function setBackgroundColor() {
